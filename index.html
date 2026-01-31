@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sorry</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            font-family: Arial, sans-serif;
+        }
+
+        .sorry-box {
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            max-width: 400px;
+            width: 90%;
+        }
+
+        .sorry-box h1 {
+            font-size: 48px;
+            color: #e74c3c;
+            margin-bottom: 10px;
+        }
+
+        .sorry-box p {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 25px;
+        }
+
+        .sorry-box button {
+            padding: 12px 25px;
+            font-size: 16px;
+            color: #fff;
+            background: #e74c3c;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .sorry-box button:hover {
+            background: #c0392b;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="sorry-box">
+        <h1>Sorry!</h1>
+        <p>We apologize for the inconvenience.<br>Please forgive us.</p>
+        <button onclick="history.back()">Go Back</button>
+    </div>
+
+</body>
+</html>
